@@ -47,7 +47,7 @@ public class HashTagTokenizer {
 			if (existInDictionary(subSequence, dictionary)){
 				System.out.println(subSequence);
 				indexStart= indexStart + subSequence.length();
-				System.out.println(indexStart);
+				//System.out.println(indexStart);
 				if (i<N){
 				subSequence = (String) hashtag.subSequence(i,i+1);
 				breakHashTag(subSequence, dictionary);
